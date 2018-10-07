@@ -19,7 +19,7 @@ public class Main {
                 }catch (MyException e){
                     e.Info();
                 }catch (Exception e){
-                    System.out.println("Ошибочка");
+                    System.out.println("!Ошибочка!");
                 }finally {
                     flag=false;
                     System.out.println("Желаете продолжить?(YES/NO) : ");
