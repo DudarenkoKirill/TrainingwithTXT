@@ -52,7 +52,10 @@ public class Main {
             inputStream.read(buffer,0,buffer.length);
             OutputStream outputStream=new FileOutputStream(newItem);
             outputStream.write(buffer,0,buffer.length);
+            inputStream.close();
+            outputStream.close();
             }
+
         }
 
 
